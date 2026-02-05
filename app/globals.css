@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #c5b8a5;
+  --color-background-light: #ffffff;
+  --color-background-dark: #121212;
+  --color-concrete: #E6E7E8;
+  --color-stone: #8C8C8C;
+  --color-graphite: #2B2F33;
+  --color-smoky-silver: #B5B8BC;
+  --color-productBg: #F2F2F2;
+
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --foreground: #F7F7F5;
+  }
+}
+
+.dark {
+  --background: #121212;
+  --foreground: #F7F7F5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+}
+
+/* Custom Utilities from HTML */
+.editorial-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.grayscale-map {
+  filter: grayscale(100%) invert(0%) contrast(1.1);
+}
+
+.dark .grayscale-map {
+  filter: grayscale(100%) invert(90%) contrast(1.1);
+}
+
+.hero-letter-spacing {
+  letter-spacing: 0.15em;
+}

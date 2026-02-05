@@ -1,0 +1,4 @@
+[00:00:01.268] Server  LOG     ✓ Ready in 888ms
+[00:00:08.831] Server  WARN    motion() is deprecated. Use motion.create() instead.
+[00:00:13.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.492] Browser WARN    motion() is deprecated. Use motion.create() instead.
