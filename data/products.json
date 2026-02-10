@@ -97,7 +97,7 @@
       "totalHeight": "130",
       "mattressHeight": "38",
       "baseHeight": "34",
-      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+     "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
       "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
       "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
@@ -233,7 +233,10 @@
     "dimensions": {
       "totalHeight": "130",
       "mattressHeight": "38",
-      "baseHeight": "33"
+      "baseHeight": "33",
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
     "images": [
       "/uploads/1770748224422-katalog_p10_img01.png",
@@ -298,7 +301,10 @@
     "dimensions": {
       "totalHeight": "130 cm",
       "mattressHeight": "38 cm",
-      "baseHeight": "33 cm"
+      "baseHeight": "33 cm",
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
     "images": [
       "/uploads/1770748629015-katalog_p12_img01.png",
@@ -363,7 +369,10 @@
     "dimensions": {
       "totalHeight": "127 cm",
       "mattressHeight": "38 cm",
-      "baseHeight": "32 cm "
+      "baseHeight": "32 cm ",
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
     "images": [
       "/uploads/1770748862113-katalog_p14_img01.png",
@@ -428,7 +437,10 @@
     "dimensions": {
       "totalHeight": "127 cm",
       "mattressHeight": "38 cm",
-      "baseHeight": "32 cm"
+      "baseHeight": "32 cm",
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
     "images": [
       "/uploads/1770749066311-katalog_p16_img01.png",
