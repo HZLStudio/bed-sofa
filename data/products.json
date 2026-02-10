@@ -372,17 +372,17 @@
     "variants": [
       {
         "size": "140X200 cm",
-        "price": 2.56,
+        "price": 2560,
         "promoPrice": 1590
       },
       {
         "size": "160X200 cm",
-        "price": 2.65,
+        "price": 2650,
         "promoPrice": 1650
       },
       {
         "size": "180X200 cm",
-        "price": 2.75,
+        "price": 2750,
         "promoPrice": 1720
       }
     ],
