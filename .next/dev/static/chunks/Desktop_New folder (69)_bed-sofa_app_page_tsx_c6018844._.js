@@ -17,11 +17,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$
 ;
 function HomePage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$69$292f$bed$2d$sofa$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(24);
-    if ($[0] !== "d1c1bb5c257df4d7a92d109c0143628f12324a0e273d201823c6ee844ac825ca") {
+    if ($[0] !== "4e32aca4b9ad97d2c567421ed0f613c51ff79bbcf6d96345360bcbcbd87c1290") {
         for(let $i = 0; $i < 24; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d1c1bb5c257df4d7a92d109c0143628f12324a0e273d201823c6ee844ac825ca";
+        $[0] = "4e32aca4b9ad97d2c567421ed0f613c51ff79bbcf6d96345360bcbcbd87c1290";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -288,7 +288,7 @@ function HomePage() {
                     columnNumber: 117
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$69$292f$bed$2d$sofa$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-12 h-[1px] bg-primary mx-auto"
+                    className: "w-12 h-1px bg-primary mx-auto"
                 }, void 0, false, {
                     fileName: "[project]/Desktop/New folder (69)/bed-sofa/app/page.tsx",
                     lineNumber: 163,
@@ -368,7 +368,7 @@ function HomePage() {
                                 ].map({
                                     "HomePage[(anonymous)()]": (item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$69$292f$bed$2d$sofa$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MotionLink, {
                                             href: "/collection",
-                                            className: "group relative aspect-[3/4] overflow-hidden rounded-lg shadow-sm bg-white dark:bg-gray-800",
+                                            className: "group relative aspect-3/4 overflow-hidden rounded-lg shadow-sm bg-white dark:bg-gray-800",
                                             variants: {
                                                 hidden: {
                                                     opacity: 0,

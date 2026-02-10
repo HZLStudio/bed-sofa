@@ -15,11 +15,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$
 ;
 function ShowroomPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$69$292f$bed$2d$sofa$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "8f93a40348dcbf54868c1c2b8864e211ea4d608229e220d26755cfaf8e134f47") {
+    if ($[0] !== "2dfc7ddba1f70b9c81b0869774bfbba1c775481bef525bf4a153f7dc435ab035") {
         for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "8f93a40348dcbf54868c1c2b8864e211ea4d608229e220d26755cfaf8e134f47";
+        $[0] = "2dfc7ddba1f70b9c81b0869774bfbba1c775481bef525bf4a153f7dc435ab035";
     }
     let t0;
     let t1;

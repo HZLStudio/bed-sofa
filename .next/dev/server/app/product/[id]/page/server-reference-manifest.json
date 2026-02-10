@@ -1,4 +1,80 @@
 {
-  "node": {},
+  "node": {
+    "0096fd0b8b965d7a17ecf62e6d62baf3ebbf223f8c": {
+      "workers": {
+        "app/product/[id]/page": {
+          "moduleId": "[project]/Desktop/New folder (69)/bed-sofa/.next-internal/server/app/product/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/New folder (69)/bed-sofa/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getProducts",
+          "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/product/[id]/page": "rsc"
+      },
+      "exportedName": "getProducts",
+      "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+    },
+    "4014945abcddb4ff7536839f7faba39d2953e2408e": {
+      "workers": {
+        "app/product/[id]/page": {
+          "moduleId": "[project]/Desktop/New folder (69)/bed-sofa/.next-internal/server/app/product/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/New folder (69)/bed-sofa/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "uploadImage",
+          "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/product/[id]/page": "rsc"
+      },
+      "exportedName": "uploadImage",
+      "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+    },
+    "4027cd32873fdadeed4824268d93ab39a663c01b9e": {
+      "workers": {
+        "app/product/[id]/page": {
+          "moduleId": "[project]/Desktop/New folder (69)/bed-sofa/.next-internal/server/app/product/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/New folder (69)/bed-sofa/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteProduct",
+          "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/product/[id]/page": "rsc"
+      },
+      "exportedName": "deleteProduct",
+      "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+    },
+    "409e4f3d6b358708aa81c19afb3ac1e97fcf6130a8": {
+      "workers": {
+        "app/product/[id]/page": {
+          "moduleId": "[project]/Desktop/New folder (69)/bed-sofa/.next-internal/server/app/product/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/New folder (69)/bed-sofa/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getProduct",
+          "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/product/[id]/page": "rsc"
+      },
+      "exportedName": "getProduct",
+      "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+    },
+    "40ec3378f8f80dda749d4edab5ab4d0ca35fac02f7": {
+      "workers": {
+        "app/product/[id]/page": {
+          "moduleId": "[project]/Desktop/New folder (69)/bed-sofa/.next-internal/server/app/product/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/New folder (69)/bed-sofa/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "saveProduct",
+          "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/product/[id]/page": "rsc"
+      },
+      "exportedName": "saveProduct",
+      "filename": "Desktop/New folder (69)/bed-sofa/app/actions.ts"
+    }
+  },
   "edge": {}
 }

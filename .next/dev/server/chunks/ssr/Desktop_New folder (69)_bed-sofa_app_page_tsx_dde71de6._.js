@@ -185,7 +185,7 @@ function HomePage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$69$292f$bed$2d$sofa$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-12 h-[1px] bg-primary mx-auto"
+                                    className: "w-12 h-1px bg-primary mx-auto"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder (69)/bed-sofa/app/page.tsx",
                                     lineNumber: 61,
@@ -235,7 +235,7 @@ function HomePage() {
                                 }
                             ].map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder__$28$69$292f$bed$2d$sofa$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MotionLink, {
                                     href: "/collection",
-                                    className: "group relative aspect-[3/4] overflow-hidden rounded-lg shadow-sm bg-white dark:bg-gray-800",
+                                    className: "group relative aspect-3/4 overflow-hidden rounded-lg shadow-sm bg-white dark:bg-gray-800",
                                     variants: {
                                         hidden: {
                                             opacity: 0,

@@ -29,7 +29,7 @@ export default function ShowroomPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
                     <div className="lg:col-span-7 space-y-12">
                         <div className="relative w-full h-[500px] overflow-hidden group rounded-lg">
-                            <iframe  allowFullScreen={true} className="absolute inset-0 w-full h-full border-0 grayscale-map transition-all duration-700 group-hover:scale-105" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.2922926156743895!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca97ef0491e!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1647872242194!5m2!1sen!2sfr" title="Emplacement du Showroom"></iframe>
+                            <iframe allowFullScreen={true} className="absolute inset-0 w-full h-full border-0 grayscale-map transition-all duration-700 group-hover:scale-105" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.2922926156743895!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca97ef0491e!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1647872242194!5m2!1sen!2sfr" title="Emplacement du Showroom"></iframe>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                             <div>

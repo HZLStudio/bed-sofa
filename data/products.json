@@ -1,0 +1,209 @@
+[
+  {
+    "id": "bohembedd",
+    "name": "",
+    "title": "BOHEMBEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "While the Anti-Slip fabric stabilizes your mattress,\nit will help to keep the body temperature stable during sleep\nthanks to its wipeable breathable fabric.",
+      "fr": "Le tissu antidérapant stabilise votre matelas et aide\nà maintenir une température corporelle stable pendant le\nsommeil grâce à son tissu respirant et lavable.",
+      "tr": "Kaymaz kumaş, yatağınızı sabitlerken, silinebilir\nnefes alabilen özelliği sayesinde uyku sırasında vücut ısısını\nsabit tutmaya yardımcı olur."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "Padded Mattress",
+        "image": "/uploads/1770736594720-Screenshot_2026-02-10_161615.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "127 cm",
+      "mattressHeight": "37 cm",
+      "baseHeight": "32 cm",
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
+    },
+    "images": [
+      "/uploads/1770733145477-katalog_p04_img01.png",
+      "/uploads/1770733148916-katalog_p05_img01.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2850,
+        "promoPrice": 1780
+      },
+      {
+        "size": "160X200 cm",
+        "price": 2990,
+        "promoPrice": 1870
+      },
+      {
+        "size": "180X200 cm",
+        "price": 3139,
+        "promoPrice": 1959
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": 449,
+        "promoPrice": 280,
+        "image": "/uploads/1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false,
+    "dimensionsImage": "/uploads/1770735692029-Screenshot_2026-02-10_160111.png",
+    "variantsImage": "/uploads/1770736119631-Screenshot_2026-02-10_155755.png"
+  },
+  {
+    "id": "woollybedd",
+    "name": "",
+    "title": "WOOLLYBEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "Woollybedd is a hybrid mattress with Base Coil Pro Balance\nSpring Technology. It has modern lines where Soft and Hyper\nFoam are in harmony with Base Coil Pro Balance.",
+      "fr": "Woollybedd est un matelas hybride doté de la technologie\nBase Coil Pro Balance Spring. Ses lignes modernes allient\nharmonieusement les mousses Soft et Hyper\nFoam à la technologie Base Coil Pro Balance.",
+      "tr": "Woollybedd, Base Coil Pro Balance Spring Teknolojisine sahip\nbir hibrit yataktır. Yumuşak ve Hyper Foam'ın Base Coil Pro\nBalance ile uyum içinde olduğu modern çizgilere sahiptir."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "Padded Mattress",
+        "image": "/uploads/1770736594720-Screenshot_2026-02-10_161615.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "130",
+      "mattressHeight": "38",
+      "baseHeight": "34",
+      "totalHeightImage": "/uploads/1770742307032-1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770742311237-1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770742314117-1770735624955-Screenshot_2026-02-10_155915.png"
+    },
+    "images": [
+      "/uploads/1770741847505-1770741656596-katalog_p06_img01.png",
+      "/uploads/1770742031693-katalog_p07_img01.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2880,
+        "promoPrice": 1800
+      },
+      {
+        "size": "160X200 cm",
+        "price": 3080,
+        "promoPrice": 1920
+      },
+      {
+        "size": "180X200 cm",
+        "price": 3170,
+        "promoPrice": 1980
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": -430,
+        "promoPrice": 270,
+        "image": "/uploads/1770742411736-1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false,
+    "variantsImage": "/uploads/1770742326222-1770736119631-Screenshot_2026-02-10_155755.png"
+  },
+  {
+    "id": "oceanbedd",
+    "name": "",
+    "title": "OCEANBEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "The Skybedd Ocean Mattress's Coolmax fabric system helps\nwick away sweat from the body. This provides a healthy\nsleeping environment free from moisture.",
+      "fr": "Le système de tissu Coolmax du matelas Skybedd Ocean\naide à évacuer la transpiration du corps.\nIl offre ainsi un environnement de sommeil sain et\nexempt d'humidité.",
+      "tr": "Skybedd Ocean Yatağın Coolmax öxelliğine sahip kumaş sistemi\nvücuttaki teri uzaklaştırmaya yardımcı olur.\nBöylece nemden arındırılmış sağlıklı bir uyku ortamı sağlar."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      },
+      {
+        "name": "Cooling Performance Fabric.",
+        "image": "/uploads/1770743468696-Screenshot_2026-02-10_181043.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "130 cm",
+      "mattressHeight": "38 cm",
+      "baseHeight": "31 cm",
+      "totalHeightImage": "/uploads/1770743341089-1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770743352635-1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770743357112-1770735624955-Screenshot_2026-02-10_155915.png"
+    },
+    "images": [
+      "/uploads/1770743632171-katalog_p08_img01.png",
+      "/uploads/1770743643270-katalog_p09_img01.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2720,
+        "promoPrice": 1700
+      },
+      {
+        "size": "160X200 cm",
+        "price": 2830,
+        "promoPrice": 1770
+      },
+      {
+        "size": "180X200 cm",
+        "price": 2930,
+        "promoPrice": 1830
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": 430,
+        "promoPrice": 270,
+        "image": "/uploads/1770743604529-1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false
+  }
+]
