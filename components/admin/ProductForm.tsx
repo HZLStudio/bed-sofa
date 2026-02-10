@@ -50,6 +50,7 @@ export function ProductForm() {
     const [editingId, setEditingId] = useState<string | null>(null);
     const [newFeature, setNewFeature] = useState("");
     const [showFeatureImporter, setShowFeatureImporter] = useState(false);
+    const [showAccessoryImporter, setShowAccessoryImporter] = useState(false);
 
     useEffect(() => { loadProducts(); }, []);
     const loadProducts = async () => { setProducts(await getProducts()); };
@@ -61,6 +62,20 @@ export function ProductForm() {
         const { name, value } = e.target;
         if (name === "title" && !editingId) {
             setProduct((p) => ({ ...p, title: value, id: toSlug(value) }));
+        } else if (name === "category" && value === "bed") {
+            setProduct((p) => ({
+                ...p,
+                category: value,
+                dimensions: {
+                    ...p.dimensions,
+                    totalHeight: p.dimensions?.totalHeight || "130 cm",
+                    mattressHeight: p.dimensions?.mattressHeight || "38 cm",
+                    baseHeight: p.dimensions?.baseHeight || "33 cm",
+                    totalHeightImage: p.dimensions?.totalHeightImage || "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+                    mattressHeightImage: p.dimensions?.mattressHeightImage || "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+                    baseHeightImage: p.dimensions?.baseHeightImage || "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
+                }
+            }));
         } else {
             setProduct((p) => ({ ...p, [name]: value }));
         }
@@ -152,6 +167,18 @@ export function ProductForm() {
         else setMessage({ type: "error", text: "Image upload failed." });
     };
 
+    const importAccessory = (acc: Accessory) => {
+        const currentAccessories = product.accessories || [];
+        if (currentAccessories.some(existing => existing.name.fr === acc.name.fr)) return;
+        setProduct(p => ({ ...p, accessories: [...currentAccessories, acc] }));
+    };
+
+    const availableAccessories = Array.from(new Set(
+        products.flatMap(p => p.accessories || [])
+            .filter(acc => acc.name.fr && acc.image)
+            .map(acc => JSON.stringify(acc))
+    )).map(s => JSON.parse(s) as Accessory);
+
     const handleDimensionsImage = async (e: React.ChangeEvent<HTMLInputElement>) => {
         if (!e.target.files?.length) return;
         const fd = new FormData(); fd.append("file", e.target.files[0]);
@@ -242,8 +269,8 @@ export function ProductForm() {
                     <div className="max-h-[60vh] overflow-y-auto divide-y divide-gray-100 dark:divide-gray-800">
                         {products.length === 0 && <p className="p-4 text-sm text-gray-400 text-center">No products yet</p>}
                         {products.map((p) => (
-                            <button key={p.id} type="button" onClick={() => selectProduct(p)}
-                                className={`w-full text-left p-4 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition group ${editingId === p.id ? "bg-primary/5 border-l-2 border-primary" : ""}`}>
+                            <div key={p.id} onClick={() => selectProduct(p)}
+                                className={`w-full text-left p-4 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition group cursor-pointer ${editingId === p.id ? "bg-primary/5 border-l-2 border-primary" : ""}`}>
                                 <div className="flex items-center gap-3">
                                     {p.images[0] ? <img src={p.images[0]} alt="" className="w-10 h-10 rounded-lg object-cover shrink-0" />
                                         : <div className="w-10 h-10 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0"><ImageIcon size={16} className="text-gray-400" /></div>}
@@ -265,7 +292,7 @@ export function ProductForm() {
                                         </button>
                                     </div>
                                 </div>
-                            </button>
+                            </div>
                         ))}
                     </div>
                 </div>
@@ -384,7 +411,7 @@ export function ProductForm() {
                                 );
                             })}
                         </div>
-                        <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800">
+                        {/* <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800">
                             <label className={LABEL}>Dimensions Diagram (Optional)</label>
                             <div className="flex items-center gap-4 mt-2">
                                 <div className="w-20 h-20 rounded-xl bg-gray-50 dark:bg-gray-800 border border-dashed border-gray-300 dark:border-gray-700 flex items-center justify-center overflow-hidden shrink-0">
@@ -405,7 +432,7 @@ export function ProductForm() {
                                     <button type="button" onClick={() => setProduct(p => ({ ...p, dimensionsImage: undefined }))} className="text-gray-400 hover:text-red-500 transition-colors"><Trash2 size={16} /></button>
                                 )}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -535,11 +562,37 @@ export function ProductForm() {
                         <h3 className="text-sm font-semibold text-gray-900 dark:text-white flex items-center gap-2">
                             <Box size={16} className="text-primary" /> Accessories ({(product.accessories || []).length})
                         </h3>
-                        <button type="button" onClick={addAccessory} className="text-xs bg-primary/10 text-primary px-3 py-1.5 rounded-lg hover:bg-primary/20 transition font-medium flex items-center gap-1">
-                            <Plus size={12} /> Add Accessory
-                        </button>
+                        <div className="flex gap-2">
+                            {availableAccessories.length > 0 && (
+                                <button type="button" onClick={() => setShowAccessoryImporter(!showAccessoryImporter)} className={`text-xs px-3 py-1.5 rounded-lg transition font-medium flex items-center gap-1 ${showAccessoryImporter ? "bg-primary text-white" : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200"}`}>
+                                    <Copy size={12} /> Import
+                                </button>
+                            )}
+                            <button type="button" onClick={addAccessory} className="text-xs bg-primary/10 text-primary px-3 py-1.5 rounded-lg hover:bg-primary/20 transition font-medium flex items-center gap-1">
+                                <Plus size={12} /> Add Accessory
+                            </button>
+                        </div>
                     </div>
                     <div className={CARD_BODY}>
+                        {showAccessoryImporter && availableAccessories.length > 0 && (
+                            <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-800/50 rounded-xl border border-gray-100 dark:border-gray-700 animate-in fade-in slide-in-from-top-2">
+                                <p className="text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-4">Bibliothèque d'accessoires</p>
+                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                                    {availableAccessories.map((acc, i) => {
+                                        const isAdded = (product.accessories || []).some(existing => existing.name.fr === acc.name.fr);
+                                        return (
+                                            <button key={i} type="button" onClick={() => importAccessory(acc)} disabled={isAdded} className={`flex flex-col items-center p-3 rounded-xl border transition-all ${isAdded ? "bg-gray-100 dark:bg-gray-800 border-transparent opacity-40 grayscale" : "bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700 hover:border-primary hover:shadow-sm"}`}>
+                                                <div className="w-12 h-12 mb-2 flex items-center justify-center bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden">
+                                                    {acc.image ? <img src={acc.image} alt="" className="w-full h-full object-cover" /> : <Box size={16} className="text-gray-300" />}
+                                                </div>
+                                                <span className="text-[10px] font-medium text-center line-clamp-1">{acc.name.fr}</span>
+                                                <span className="text-[9px] text-gray-400 font-bold">{acc.price}€</span>
+                                            </button>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        )}
                         {(product.accessories || []).length === 0 ? (
                             <div className="text-center py-8 text-gray-400 text-sm"><Box size={24} className="mx-auto mb-2 opacity-40" />No accessories yet (e.g. Nightstand).</div>
                         ) : (

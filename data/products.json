@@ -97,9 +97,9 @@
       "totalHeight": "130",
       "mattressHeight": "38",
       "baseHeight": "34",
-      "totalHeightImage": "/uploads/1770742307032-1770735606413-Screenshot_2026-02-10_155854.png",
-      "mattressHeightImage": "/uploads/1770742311237-1770735616361-Screenshot_2026-02-10_155908.png",
-      "baseHeightImage": "/uploads/1770742314117-1770735624955-Screenshot_2026-02-10_155915.png"
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
     "images": [
       "/uploads/1770741847505-1770741656596-katalog_p06_img01.png",
@@ -166,9 +166,9 @@
       "totalHeight": "130 cm",
       "mattressHeight": "38 cm",
       "baseHeight": "31 cm",
-      "totalHeightImage": "/uploads/1770743341089-1770735606413-Screenshot_2026-02-10_155854.png",
-      "mattressHeightImage": "/uploads/1770743352635-1770735616361-Screenshot_2026-02-10_155908.png",
-      "baseHeightImage": "/uploads/1770743357112-1770735624955-Screenshot_2026-02-10_155915.png"
+      "totalHeightImage": "/uploads/1770735606413-Screenshot_2026-02-10_155854.png",
+      "mattressHeightImage": "/uploads/1770735616361-Screenshot_2026-02-10_155908.png",
+      "baseHeightImage": "/uploads/1770735624955-Screenshot_2026-02-10_155915.png"
     },
     "images": [
       "/uploads/1770743632171-katalog_p08_img01.png",
@@ -200,6 +200,266 @@
         },
         "price": 430,
         "promoPrice": 270,
+        "image": "/uploads/1770743604529-1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false
+  },
+  {
+    "id": "shinebedd",
+    "name": "",
+    "title": "SHINEBEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "The Shinebedd mattress will envelop you with its plush structure, letting you\nfeel the comfort of its extra softness. The new Pocket Spring Technology,\nCoil Pro Balance Spring System, and the perfect harmony of soft foam will\nprovide full support for your body with its orthopedic structure.",
+      "fr": "Le matelas Shinebedd vous enveloppe grâce à sa structure\nmoelleuse et vous offre un confort extra-doux. La nouvelle technologie\nle système de ressorts Coil Pro Balance et la parfaite harmonie de la\nmousse souple, associés à sa structure orthopédique, offrent un soutien\nparfait à votre corps.",
+      "tr": "Shinebedd yatak, dolgun yapısı sayesinde sizi adeta sararak\nekstra yumuşaklığının konforunu hissettirecek. Yeni Cep Yay Teknolojisi,\nCoil Pro Balance Yay Sistemi ve yumuşak süngerin mükemmel uyumu,\nortopedik yapısı ile vücudunuza tam destek sağlayacak."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "Padded Mattress",
+        "image": "/uploads/1770736594720-Screenshot_2026-02-10_161615.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "130",
+      "mattressHeight": "38",
+      "baseHeight": "33"
+    },
+    "images": [
+      "/uploads/1770748224422-katalog_p10_img01.png",
+      "/uploads/1770748610703-katalog_p11_img02.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2850,
+        "promoPrice": 1780
+      },
+      {
+        "size": "160X200 cm",
+        "price": 3025,
+        "promoPrice": 1890
+      },
+      {
+        "size": "180X200 cm",
+        "price": 3140,
+        "promoPrice": 1960
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": 410,
+        "promoPrice": 255,
+        "image": "/uploads/1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false
+  },
+  {
+    "id": "dolcebedd",
+    "name": "",
+    "title": "DOLCEBEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "Dolcebedd Mattress offers ergonomics and comfort together with the\ncombination of Base Coil Pro Balance Spring Technology - Soft Foam.\nFor this reason, our mattress is assertive about relieving your\ntiredness based on working and stress all day long.",
+      "fr": "Le matelas Dolcebedd offre ergonomie et confort grâce à la combinaison\nde la technologie Base Coil Pro Balance Spring et de la mousse souple.\nC'est pourquoi notre matelas est efficace pour soulager votre\nfatigue après une journée de travail et de stress.",
+      "tr": "Dolcebedd Yatak, ergonomi ve konforu, Base Coil Pro Balance\nyay teknolojisi - yumuşak sünger kombinasyonu ile bir araya getirdi.\nBu nedenle, tüm gün süren çalışma ve stresin yol açtığı\nyorgunluğunuzu gidermede çok etkilidir."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "Padded Mattress",
+        "image": "/uploads/1770736594720-Screenshot_2026-02-10_161615.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "130 cm",
+      "mattressHeight": "38 cm",
+      "baseHeight": "33 cm"
+    },
+    "images": [
+      "/uploads/1770748629015-katalog_p12_img01.png",
+      "/uploads/1770748633255-katalog_p13_img01.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2670,
+        "promoPrice": 1670
+      },
+      {
+        "size": "160X200 cm",
+        "price": 2820,
+        "promoPrice": 1760
+      },
+      {
+        "size": "180X200 cm",
+        "price": 2930,
+        "promoPrice": 1830
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": 390,
+        "promoPrice": 240,
+        "image": "/uploads/1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false
+  },
+  {
+    "id": "birdybedd",
+    "name": "",
+    "title": "BIRDYBEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "Le tissu antidérapant du lit BirdyBedd maintient le lit en place et,\ngrâce à ses propriétés lavables et respirantes, aide à maintenir\nune température corporelle constante pendant le sommeil,\noffrant ainsi un environnement de sommeil sain.",
+      "fr": "BirdyBedd's non-slip fabric keeps the mattress in place, while its\nwipeable and breathable properties help maintain a stable body\ntemperature during sleep, providing a healthy sleep environment.",
+      "tr": "BirdyBedd yatağın kaymaz kumaşı, yatağı sabitlerken, silinebilir ve\nnefes alabilme özelliği sayesinde uyku sırasında vücut ısısını\nsabit tutmaya yardımcı olur, sağlıklı bir uyku ortamı sunar."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "Padded Mattress",
+        "image": "/uploads/1770736594720-Screenshot_2026-02-10_161615.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "127 cm",
+      "mattressHeight": "38 cm",
+      "baseHeight": "32 cm "
+    },
+    "images": [
+      "/uploads/1770748862113-katalog_p14_img01.png",
+      "/uploads/1770748887262-katalog_p15_img02.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2.56,
+        "promoPrice": 1590
+      },
+      {
+        "size": "160X200 cm",
+        "price": 2.65,
+        "promoPrice": 1650
+      },
+      {
+        "size": "180X200 cm",
+        "price": 2.75,
+        "promoPrice": 1720
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": 390,
+        "promoPrice": 240,
+        "image": "/uploads/1770736207379-Screenshot_2026-02-10_160958.png"
+      }
+    ],
+    "category": "bed",
+    "isNew": false
+  },
+  {
+    "id": "bridabedd",
+    "name": "",
+    "title": "BRIDABEDD",
+    "subtitle": "BED SET",
+    "description": {
+      "en": "Bridabedd is a hybrid mattress with Base Coil Pro Balance Spring\nTechnology. It has modern lines where Soft and Hyper Foam are in\nharmony with Base Coil Pro Balance.",
+      "fr": "Bridabedd est un matelas hybride doté de la technologie Base Coil\nPro Balance Spring . Il présente des lignes modernes où les mousses\nSoft et Hyper Foam s'harmonisent\navec le Base Coil Pro Balance.",
+      "tr": "Bridabedd, Base Coil Pro Balance Yay Teknolojisi ile üretilmiş bir\nhibrit yataktır. Yumuşak ve Hiper Köpük ile Base Coil Pro Balance'ın\nuyum içinde olduğu modern çizgilere sahiptir."
+    },
+    "features": [
+      {
+        "name": "Pocket Spring",
+        "image": "/uploads/1770736588902-Screenshot_2026-02-10_161610.png"
+      },
+      {
+        "name": "Padded Mattress",
+        "image": "/uploads/1770736594720-Screenshot_2026-02-10_161615.png"
+      },
+      {
+        "name": "High Quality Foam",
+        "image": "/uploads/1770736599841-Screenshot_2026-02-10_161620.png"
+      }
+    ],
+    "dimensions": {
+      "totalHeight": "127 cm",
+      "mattressHeight": "38 cm",
+      "baseHeight": "32 cm"
+    },
+    "images": [
+      "/uploads/1770749066311-katalog_p16_img01.png",
+      "/uploads/1770749076259-katalog_p17_img02.png"
+    ],
+    "variants": [
+      {
+        "size": "140X200 cm",
+        "price": 2850,
+        "promoPrice": 1780
+      },
+      {
+        "size": "160X200 cm",
+        "price": 3000,
+        "promoPrice": 1870
+      },
+      {
+        "size": "180X200 cm",
+        "price": 3140,
+        "promoPrice": 1960
+      }
+    ],
+    "accessories": [
+      {
+        "name": {
+          "en": "NIGHTSTAND",
+          "fr": "NIGHTSTAND",
+          "tr": "NIGHTSTAND"
+        },
+        "price": 420,
+        "promoPrice": 260,
         "image": "/uploads/1770743604529-1770736207379-Screenshot_2026-02-10_160958.png"
       }
     ],

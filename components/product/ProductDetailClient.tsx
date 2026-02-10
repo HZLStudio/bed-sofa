@@ -6,8 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Product, Language } from "@/lib/types";
 import {
     Sparkles, ChevronRight, ArrowRight,
-    Truck, ShieldCheck, Phone, X,
-    ChevronLeft, Maximize2, Heart
+    X, ChevronLeft, Maximize2, Heart
 } from "lucide-react";
 import Image from "next/image";
 
@@ -341,21 +340,6 @@ export function ProductDetailClient({ product }: { product: Product }) {
                         </Link>
                     </div>
 
-                    {/* Trust Badges */}
-                    <div className="grid grid-cols-3 gap-6 pt-10 border-t border-gray-100 dark:border-gray-800/60">
-                        {[
-                            { icon: Truck, label: "Livraison\nPremium" },
-                            { icon: ShieldCheck, label: "Garantie\n5 Ans" },
-                            { icon: Phone, label: "Expert\nDédié" },
-                        ].map(({ icon: Icon, label }, i) => (
-                            <div key={i} className="flex flex-col items-center text-center gap-3">
-                                <div className="w-12 h-12 rounded-full bg-gray-50 dark:bg-gray-800/60 flex items-center justify-center text-primary border border-gray-100 dark:border-gray-700/50 shadow-sm">
-                                    <Icon size={22} strokeWidth={1.5} />
-                                </div>
-                                <span className="text-[10px] uppercase font-bold text-gray-400 tracking-widest leading-loose whitespace-pre-line">{label}</span>
-                            </div>
-                        ))}
-                    </div>
 
                 </div>
             </section>

@@ -75,8 +75,17 @@ export function CollectionClient({ products }: { products: Product[] }) {
                     initial={{ scale: 1.1 }}
                     animate={{ scale: 1 }}
                     transition={{ duration: 1.5, ease: "easeOut" }}
-                    className="w-full h-full bg-linear-to-br from-gray-900 via-gray-800 to-primary/30"
-                />
+                    className="absolute inset-0"
+                >
+                    <Image
+                        src="/uploads/1770743632171-katalog_p08_img01.png"
+                        alt="Collection Background"
+                        fill
+                        className="object-cover"
+                        priority
+                    />
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-[1px]" />
+                </motion.div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
